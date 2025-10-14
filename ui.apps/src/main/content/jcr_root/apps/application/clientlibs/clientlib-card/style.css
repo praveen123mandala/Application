@@ -1,0 +1,8 @@
+.card-img{
+    height: 500px;
+    width: 500px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
