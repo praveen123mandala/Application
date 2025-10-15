@@ -2,19 +2,20 @@
 
 
 <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
-     data-sly-call="${clientLib.css @ categories='application.card'}" />
+     data-sly-call="${clientLib.css @ categories='application.base'}" />
 
-
+<div class="container">
 <div class="card">
     <img src="${model.image}" alt="${model.title}" class="card-img" />
     <div class="card-body">
         <h3>${model.title}</h3>
-        <h5>${model.title1}</h5>
-        <p>${model.description}</p>
+        <h4>${model.title1}</h4>
+        <p class="card-desc">${model.description}</p>
 
     <sly data-sly-test="${model.buttonText && model.buttonLink}">
             <a href="${model.buttonLink}" class="card-btn">${model.buttonText}</a>
         </sly>    
     </div>
+</div>
 </div>
 

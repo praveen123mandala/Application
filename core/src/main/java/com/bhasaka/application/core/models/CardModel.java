@@ -12,6 +12,9 @@ public class CardModel {
     private String title;
 
     @ValueMapValue
+    private String title1;
+
+    @ValueMapValue
     private String description;
 
     @ValueMapValue
@@ -37,6 +40,10 @@ public class CardModel {
 
     public String getDescription() {
         return description;
+    }
+
+    public String getTitle1() {
+        return title1;
     }
 
     public String getImage() {
