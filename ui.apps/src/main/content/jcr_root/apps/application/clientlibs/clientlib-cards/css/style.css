@@ -10,14 +10,16 @@ height: 200px;
     text-decoration: none;
 }
 .card{
-    border: 1px solid gray;
+    border-radius: 20px;
     padding: 24px 16px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    background-color: rgb(255, 255, 255);
     
 }
+
 .card-body{
     display: flex;
     flex-direction: column;
@@ -40,4 +42,9 @@ height: 200px;
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+.aem-Grid{
+display: flex;
+flex-direction: row;
+gap: 30px;
 }
